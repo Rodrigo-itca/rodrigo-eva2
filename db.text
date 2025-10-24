@@ -1,0 +1,12 @@
+create database login;
+
+create table login(
+    id int PRIMARY KEY auto_increment not null,
+    correo varchar(250),
+    password varchar(250)
+);
+
+use login; 
+
+INSERT INTO usuarios(correo,password)VALUES('rodrigo10cristales@gmail.com', "Melody.503");
+
